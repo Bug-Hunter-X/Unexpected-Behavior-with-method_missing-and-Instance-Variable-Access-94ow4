@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle issue in Ruby when using the `method_missing` method.  The example showcases how `method_missing` can intercept method calls, but it also highlights that direct access to instance variables remains unaffected.  Incorrect assumptions about how `method_missing` affects instance variable access can lead to hard-to-debug errors.
